@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    const informationlist = [
+  {
+    "id": 1,
+    "name": "Kevin Edwards",
+    "address": "501 Kelly Station, Port Nicoleville, MI 37796",
+    "phone": "(763)311-6279",
+    "country": "Australia",
+    "company": "Apple"
+  },
+  {
+    "id": 2,
+    "name": "Melissa Stout",
+    "address": "72359 Christopher Pike, Lindaview, NE 16047",
+    "phone": "001-604-846-9574x0072",
+    "country": "India",
+    "company": "Google"
+  },
+  {
+    "id": 3,
+    "name": "Darrell Burton",
+    "address": "464 Kline Neck, Lewistown, IL 48491",
+    "phone": "001-243-086-6853x2412",
+    "country": "India",
+    "company": "Amazon"
+  },
+  {
+    "id": 23,
+    "name": "Liam Brown",
+    "address": "123 Maple Street, Toronto, ON M4B 1B3",
+    "phone": "416-123-4567",
+    "country": "Canada",
+    "company": "Apple"
+  },
+  {
+    "id": 24,
+    "name": "Olivia Smith",
+    "address": "456 Oak Avenue, Vancouver, BC V5K 0A1",
+    "phone": "604-987-6543",
+    "country": "Canada",
+    "company": "Apple"
+  },
+  {
+    "id": 25,
+    "name": "Noah Wilson",
+    "address": "789 Pine Road, Calgary, AB T3K 0L5",
+    "phone": "403-555-1234",
+    "country": "Canada",
+    "company": "Apple"
+  },
+  {
+    "id": 26,
+    "name": "Emma Johnson",
+    "address": "321 Birch Lane, Ottawa, ON K1A 0B1",
+    "phone": "613-555-6789",
+    "country": "Canada",
+    "company": "Apple"
+  },
+  {
+    "id": 19,
+    "name": "Jennifer Allen",
+    "address": "2643 Mary Island, Rachaelton, ID 64364",
+    "phone": "(028)357-6382",
+    "country": "USA",
+    "company": "Apple"
+  }
+];
+
+// Filter for Canada + Apple
+const canadappleList = informationlist.filter(item => 
+  item.country === "Canada" && item.company === "Apple"
+);
+
+console.log(canadappleList);
+</script>
+<body>
+    
+</body>
+</html>
