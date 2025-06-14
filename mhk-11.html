@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function showHeading(){
+          document.getElementById("firstHeading").style.display = 'block';
+        }
+        function hideHeading(){
+          document.getElementById("firstHeading").style.display = 'none';
+        }
+
+        function myshowHeading(){
+          document.getElementById("secondHeading").style.display='block';
+
+        }
+        function myhideHeading(){
+          document.getElementById("secondHeading").style.display='none';
+        }
+        
+    </script>
+    <style>
+        .multiStyle{
+              color: #000; 
+            background-color: #f2f2f2; 
+            border: 1px solid #c00;
+            padding: 20px;
+            margin: 10px;
+            
+
+        }
+
+        .subStyle{
+            color:wheat;
+            background-color:gray;
+            border: 2px dashed blueviolet;
+            padding:10px; 
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p  style="display: block; background-color: blueviolet;">Hello everyone! </p>  -->
+     <p class="multiStyle" onmouseover="showHeading()" onmouseout="hideHeading()">DATA OF MAHAK</p>  
+     <h3 class="firstHeading" id="firstHeading"> Full Name: Mahak Noori<br style=>Father Name: Abdul Aziz<br>Mother Name: Safeena Begam<br>
+     Age:19<br>Phone no.6265602394<br>Address:Raza Masjid<br>College Name: Aditya college of technology and science (Satna)<br>Course:Btech<br>Branch:Computer science
+     <br>Current City:Maihar<br>District:Maihar<br>Pin Code:485771 <br>State:Madhya pradesh </h3>
+     <!-- <h3 class="firstHeading" id="firstHeading">Fullname:MahakNoori</h3>
+     <h3 class="firstHeading" id="firstHeading">name</h3> -->
+
+
+
+
+     <p class="subStyle" onmouseover="myshowHeading()" onmouseout="myhideHeading()">Show Here</p>
+     <h1 class="secondHeading" id="secondHeading">This is my information</h1>
+
+
+</body>
+</html> 
